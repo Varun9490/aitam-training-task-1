@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      label {
+        display: block;
+        margin-right: 20px;
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="https://www.flaticon.com/free-icons/form"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <center>
+      <form action="">
+        <h1>Registration Form</h1>
+        <fieldset>
+          <legend>Personal Details</legend>
+          <label for="FirstName"
+            >Fist Name
+            <input
+              name="FirstName"
+              type="text"
+              placeholder="enter your first name"
+              required /></label
+          ><br />
+          <label for="LastName"
+            >Last Name<input
+              name="LastName"
+              type="text"
+              placeholder="enter your last name"
+              required
+          /></label>
+          <br />
+          <label for="age"
+            >Age<input name="age" type="number" required
+          /></label>
+          <br />
+          <label for="mobile"
+            >Mobile No<input
+              name="mobile"
+              type="tel"
+              placeholder="enter your mobile number"
+          /></label>
+          <br />
+          <label for="martial-status"
+            >Martial Status<select name="martial-status" id="">
+              <option value="single">single</option>
+              <option value="windwed">windwed</option>
+              <option value="married">married</option>
+              <option value="divorsed">divorsed</option>
+            </select>
+          </label>
+          <br />
+          <label for="date"
+            >Date of Birth<input type="date" name="date"
+          /></label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Contact Details</legend>
+          <label for="mobile"
+            >Mobile No <input name="mobile" type="tel"
+          /></label>
+          <br />
+          <label for="email">Email<input type="email" name="email" /></label
+          ><br />
+          <label for="residential-address"
+            >Residential Address<textarea
+              name="residential-address"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </label>
+          <br />
+          <label for="permanent-address"
+            >Permanent Address<textarea
+              name="residential-address"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </label>
+        </fieldset>
+        <br />
+        <label for="language"
+          >Preferred Language
+          <select id="language" name="language">
+            <option value="english">English</option>
+            <option value="telugu">Telugu</option>
+            <option value="hindi">Hindi</option>
+            <option value="other">Other</option>
+          </select></label
+        >
+
+        <br />
+        <label>
+          <input type="checkbox" name="agreement" required />I agree to the
+          terms and conditions
+        </label>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </center>
+  </body>
+</html>
